@@ -1,0 +1,6 @@
+framework module DKDevKit {
+  umbrella header "DKDevKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

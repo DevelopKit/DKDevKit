@@ -1,0 +1,33 @@
+{
+  "name": "DKDevKit",
+  "version": "0.1.0",
+  "summary": "A short description of DKDevKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DKDevKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiang zhai": "zq4950411@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DKDevKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKDevKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "ReactiveCocoa": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
+}

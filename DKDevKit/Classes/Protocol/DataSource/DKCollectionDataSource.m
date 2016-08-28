@@ -11,21 +11,12 @@
 
 @interface DKCollectionDataSource()
 
-@property (nonatomic, copy, readwrite) NSString *cellIdentifier;
 
 @end
 
 @implementation DKCollectionDataSource
 
-- (instancetype)initWithCellIdentifier:(NSString *)cellIdentifier {
-    self = [super init];
-    
-    if (self) {
-        _cellIdentifier = cellIdentifier;
-    }
-    
-    return self;
-}
+
 
 #pragma mark - UICollection dataSource
 

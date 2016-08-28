@@ -19,7 +19,30 @@
     <favorites_list name="DKDevKit" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DKCollectionDataSource.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding>
+                <element signature="e#81#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DKCollectionDataSource.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,8 +69,10 @@
         <option value="$PROJECT_DIR$/../DKDevKit/Classes/Category/UIKit/UIView+DKDevKit.m" />
         <option value="$PROJECT_DIR$/../DKDevKit/Classes/DKMacros.h" />
         <option value="$PROJECT_DIR$/../DKDevKit/Classes/DKMacros.m" />
-        <option value="$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.m" />
         <option value="$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.h" />
+        <option value="$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.m" />
+        <option value="$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKTableViewDataSource.h" />
+        <option value="$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKTableViewDataSource.m" />
       </list>
     </option>
   </component>
@@ -58,7 +83,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
+    <option name="x" value="335" />
     <option name="y" value="23" />
     <option name="width" value="1629" />
     <option name="height" value="971" />
@@ -115,16 +140,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472357195129</updated>
-      <workItem from="1472357197698" duration="12567000" />
+      <workItem from="1472357197698" duration="14023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12567000" />
+    <option name="totallyTimeSpent" value="14023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="456" y="23" width="1629" height="971" extended-state="0" />
-    <editor active="false" />
+    <frame x="335" y="23" width="1629" height="971" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -369,14 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICollectionView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Category/UIKit/UIView+DKDevKit.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -417,10 +434,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICollectionView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2111">
+          <caret line="115" column="39" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKTableViewDataSource.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKTableViewDataSource.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
           <folding>
             <element signature="e#81#115#0" expanded="true" />
           </folding>
@@ -429,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DKDevKit/Classes/Protocol/DataSource/DKCollectionDataSource.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -15,15 +15,6 @@
  */
 @property (nonatomic, weak) id realDataSource;
 
-/**
- *  Init method.
- *
- *  @param cellIdentifier the identifier of cells.
- *
- *  @return dataSourse instance.
- */
-- (instancetype)initWithCellIdentifier:(NSString *)cellIdentifier;
-
 
 /**
  *  Return the number of section.
@@ -42,5 +33,5 @@
  */
 @property (nonatomic, copy) NSInteger(^sectionNumberInCollectionView)(UICollectionView *collectionView);
 
-
+- (void)configureItemWithReuseIdentifier:(NSString *)identifier inCollectionView:(UICollectionView *)collectionView block:(void(^)(UICollectionViewCell *cell))config;
 @end

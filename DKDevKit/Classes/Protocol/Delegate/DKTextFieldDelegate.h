@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CBTextFieldDelegate : NSObject <UITextFieldDelegate>
+@interface DKTextFieldDelegate : NSObject <UITextFieldDelegate>
 
 /**
  *  Real delegate of UITextField.

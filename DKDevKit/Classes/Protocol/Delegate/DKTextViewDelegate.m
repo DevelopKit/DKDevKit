@@ -2,9 +2,9 @@
 //  Created by ZhaiQiang on 16/8/28.
 //
 
-#import "CBTextViewDelegate.h"
+#import "DKTextViewDelegate.h"
 
-@implementation CBTextViewDelegate
+@implementation DKTextViewDelegate
 
 - (void)textViewDidChange:(UITextView *)textView {
     if (_realDelegate && [_realDelegate respondsToSelector:@selector(textViewDidChange:)]) {

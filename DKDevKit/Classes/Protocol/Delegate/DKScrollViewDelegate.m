@@ -2,9 +2,9 @@
 //  Created by ZhaiQiang on 16/8/28.
 //
 
-#import "CBScrollViewDelegate.h"
+#import "DKScrollViewDelegate.h"
 
-@implementation CBScrollViewDelegate
+@implementation DKScrollViewDelegate
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (_realDelegate && [_realDelegate respondsToSelector:@selector(scrollViewDidScroll:)]) {

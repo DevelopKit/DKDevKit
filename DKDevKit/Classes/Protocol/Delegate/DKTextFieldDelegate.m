@@ -2,9 +2,9 @@
 //  Created by ZhaiQiang on 16/8/28.
 //
 
-#import "CBTextFieldDelegate.h"
+#import "DKTextFieldDelegate.h"
 
-@implementation CBTextFieldDelegate
+@implementation DKTextFieldDelegate
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     if (_realDelegate && [_realDelegate respondsToSelector:@selector(textFieldDidBeginEditing:)]) {

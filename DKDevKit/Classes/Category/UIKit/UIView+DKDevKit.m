@@ -7,27 +7,31 @@
 //
 
 #import "UIView+DKDevKit.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "ReactiveCocoa.h"
 
 @implementation UIView (DKDevKit)
 
-- (void)configure:(void (^)(UIView *))config {
+- (instancetype)configure:(void (^)(__kindof UIView *v))config {
     if (config) {config(self);}
+    return self;
 }
 
-- (void)layout:(void (^)(UIView *))layout {
+- (instancetype)layout:(void (^)(__kindof UIView *v))layout {
     if (layout) {layout(self);}
+    return self;
 }
 
-- (void)layoutWithMasonry:(void (^)(MASConstraintMaker *make))maker {
+- (instancetype)layoutWithMasonry:(void (^)(MASConstraintMaker *make))maker {
     if (maker) {
         [self mas_makeConstraints:maker];
     }
+    return self;
 }
 
-- (void)addToSuperView:(UIView *)superView {
+- (instancetype)addToSuperView:(__kindof UIView *)superView {
     [superView addSubview:self];
+    return self;
 }
 
 

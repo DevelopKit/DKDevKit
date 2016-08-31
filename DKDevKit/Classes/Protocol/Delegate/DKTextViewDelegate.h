@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CBTextViewDelegate : NSObject <UITextViewDelegate>
+@interface DKTextViewDelegate : NSObject <UITextViewDelegate>
 
 /**
  *  Real delegate of UITextView.

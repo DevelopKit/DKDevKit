@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CBTableViewDelegate : NSObject <UITableViewDelegate>
+@interface DKTableViewDelegate : NSObject <UITableViewDelegate>
 
 /**
  *  Real delegate of UITableView.

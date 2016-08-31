@@ -2,9 +2,9 @@
 //  Created by ZhaiQiang on 16/8/28.
 //
 
-#import "CBCollectionViewDelegate.h"
+#import "DKCollectionViewDelegate.h"
 
-@implementation CBCollectionViewDelegate
+@implementation DKCollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     if (_realDelegate && [_realDelegate respondsToSelector:@selector(collectionView:didSelectItemAtIndexPath:)]) {

@@ -17,3 +17,8 @@
 
 - (BOOL)isEmailFormat;
 @end
+
+@interface NSString (DKURL)
+- (NSString *)URLDecode;
+- (NSString *)URLEncode;
+@end

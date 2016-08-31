@@ -2,9 +2,9 @@
 //  Created by ZhaiQiang on 16/8/28.
 //
 
-#import "CBTableViewDelegate.h"
+#import "DKTableViewDelegate.h"
 
-@implementation CBTableViewDelegate
+@implementation DKTableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     CGFloat height = 40.f;

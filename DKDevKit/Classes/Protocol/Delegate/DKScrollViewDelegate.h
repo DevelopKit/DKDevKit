@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CBScrollViewDelegate : NSObject <UIScrollViewDelegate>
+@interface DKScrollViewDelegate : NSObject <UIScrollViewDelegate>
 
 /**
  *  Real delegate of UIScrollView.

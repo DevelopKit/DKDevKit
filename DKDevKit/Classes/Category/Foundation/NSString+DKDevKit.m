@@ -42,3 +42,10 @@
     return [predicate evaluateWithObject:[self lowercaseString]];
 }
 @end
+
+
+@implementation NSString (DKURL)
+- (NSString *)URLDecode {
+
+}
+@end

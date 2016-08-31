@@ -11,18 +11,27 @@
 
 @interface UIView (DKDevKit)
 
-- (void)configure:(void (^) (UIView *v))config;
+/**
+ * config the view attribute
+ * @param config block
+ * @return self
+ */
+- (instancetype)configure:(void (^) (__kindof UIView *v))config;
 
-- (void)layout:(void (^) (UIView *v))layout;
-- (void)layoutWithMasonry:(void (^) (MASConstraintMaker *make))maker;
+/**
+ * layout the view
+ * @param layout block
+ * @return self
+ */
+- (instancetype)layout:(void (^) (__kindof UIView *v))layout;
+- (instancetype)layoutWithMasonry:(void (^) (MASConstraintMaker *make))maker;
 
-- (void)addToSuperView:(UIView *)superView;
+- (instancetype)addToSuperView:(__kindof UIView *)superView;
 
 @end
 
 
 @interface UIView (DKGesture)
-
 
 - (void)whenTapWithTaps:(NSUInteger)taps touches:(NSUInteger)touched action:(void (^)(id x))block;
 

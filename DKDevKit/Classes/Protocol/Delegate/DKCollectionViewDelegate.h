@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CBCollectionViewDelegate : NSObject <UICollectionViewDelegate>
+@interface DKCollectionViewDelegate : NSObject <UICollectionViewDelegate>
 
 /**
  *  Real delegate of UIScrollView.
